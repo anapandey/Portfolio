@@ -1,0 +1,140 @@
+/* Ana Pandey */
+
+* {
+    margin: 0;
+}
+
+/* body */
+html,
+body {
+    height: 100%;
+    font-size:1em;
+}
+h1 {
+    font-size: 300%;
+    margin-bottom: 50px;
+}
+
+/* navbar */
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    background-color: #99CCFF;
+}
+.navbar ul {
+    background-color: #99CCFF;
+}
+.navbar-nav a {
+    color: #FFF;
+    text-align: center;
+    margin-right: 30px;
+}
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+    color: #FFF;
+    background-color:#FFCC99;
+}
+
+.navbar-header {
+    margin-top: -2px;
+}
+.icon-bar {
+    background-color: #FFF;
+    margin:0px 25px
+}
+.navbarScrolled {
+    background-color: #99CCFF;
+    box-shadow: 0 1px 1px #CCCCCC;
+}
+
+/* about me */
+.skill {
+    margin-top: 100px;
+    line-height: 50px;
+    padding: 10px;
+    border: 1px solid #999999;
+}
+#aboutMe {
+    width:100%;
+    background-color: #99CCFF;
+    color: #FFF;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom:50px;
+}
+
+/* portfolio */
+.center {
+    text-align: center;
+}
+.img-responsive img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.thumbnail {
+    border: none;
+    transition:all 0.8s ease-in;
+}
+.thumbnail:hover {
+    background-color: #99CCFF;
+}
+a {
+    font-size: 1.2em;
+    color: #99CCFF;
+    text-shadow:0px 1px 0px #999999;
+    transition:all 0.4s ease;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#title {
+    color: #99CCFF;
+    text-shadow: 1px 1px 1px #666666;
+    margin-top: 0;
+    padding: 50px;
+    font-size: 40px;
+}
+
+/* contact */
+.links {
+    padding: 50px;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+}
+#contact {
+    border-top: 1px solid #CCCCCC;
+    padding-top: 130px;
+    padding-bottom: 80px;
+    color: #999999;
+}
+
+/* footer*/
+#footer {
+    text-align: center;
+    background-color: #99CCFF;
+    padding: 10px;
+    font-size: 0.8em;
+    color: #FFF;
+}
+#footer a {
+    color: #FFF;
+}
+#footer a:hover {
+    color: #FFCC99;
+    font-size: 1.2em;
+}
+#me {
+    font-size: 1.2em;
+    color: #FFF;
+}
