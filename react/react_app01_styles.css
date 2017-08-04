@@ -1,0 +1,221 @@
+/* Ana Pandey React Project 01 */
+
+/* body */
+
+body {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: #cccccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+h3 {
+    color: #999999;
+}
+h4 {
+   color:#FF9966;
+}
+
+/* header */
+
+.header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px;
+}
+/* navbar */
+
+.navbar {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top:0px;
+}
+
+.navbar ul {
+    background: linear-gradient( #9999ff, #6666ff);
+    box-shadow: 2px 0px 2px grey;
+    width: 96.7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.navbar ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 16px;
+    color: #FFF;
+}
+
+.navbar ul li a:hover {
+    color: #ffff66;
+}
+.active {
+    background-color:#FFF;
+    color:#9999ff!important;
+}
+
+/* content */
+
+.content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    margin-bottom:50px;
+    padding:10px 0px 30px 0px;
+    background-color: #FFF;
+    box-sizing: border-box;
+}
+
+
+/* section */
+
+.section {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+/* article */
+
+.article {
+    float: left;
+    width: 60%;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.article > p {
+    color: #999999;
+}
+
+/* article div */
+
+ul ~ div {
+    float:left;
+    box-sizing:border-box;
+    background-color: #FFF;
+    color: #ff9966;
+    box-shadow: none;
+    padding-top: 40px;
+}
+
+.article ul li {
+    list-style: none;
+    float: left;
+    display: block;
+    margin: 10px;
+    padding: 0px 20px;
+    line-height: 0.8;
+    text-align: center;
+    background-color: #9999ff;
+    box-shadow: 2px 2px 2px grey;
+    color: #FFF;
+}
+
+.article ul li:nth-child(2),
+.article ul li:nth-child(3) {
+    background-color: #CCCCCC;
+    color: #666fff;
+}
+
+/* table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #999999;
+}
+
+th {
+    background-color: #CCCCCC;
+    border-bottom: none;
+    color: #ff9966;
+}
+
+
+/* article last child */
+
+.article:last-of-type {
+    text-align: center;
+    width:30%;
+    margin-left:60px;
+    margin-top: 40px;
+}
+
+.article:last-of-type div {
+    float: none;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 2px 10px;
+    line-height: 0.1;
+    text-align: center;
+    color: #999999;
+}
+
+.article:last-of-type div h1 {
+    font-size: 200%;
+    color: #666fff;
+}
+
+.article:last-of-type h3 {
+    margin-bottom: 0px;
+    color: #ff9966;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
