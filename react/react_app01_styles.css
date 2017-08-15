@@ -133,7 +133,9 @@ ul ~ div {
     background-color: #CCCCCC;
     color: #666fff;
 }
-
+.article ol {
+    background-color:aliceblue;
+}
 /* table */
 
 table {

@@ -162,10 +162,10 @@
          return (
              <div className="section">
        <div className="article">
-       <h2>No content available for this page.</h2>
+       <img src={"./profilegrey.jpg"}/>;
         </div>
         <div className="article">
-       
+       <h4>No content available for this page.</h4>
         </div>
         <div className="article">
        
@@ -191,7 +191,7 @@
         </div>
             <h4>Meals</h4>
             <p>Morning snacks : Strawberry yogurt</p>
-            <p>Meal : Ate all his lunch</p>
+            <p>Meal : Meal from Home</p>
             <p>Afternoon snacks : Rice Crackers</p>
             <h4>Study</h4>
             <p>Teach to count 1 to 10</p>
@@ -206,7 +206,100 @@
          )
      }
  });
+ var Reports = React.createClass({
+  render(){
+  return(
+  <div className="section">
+       <div className="article">
+       <h3>Select a student here</h3>
+        </div>
+       <div className="article">
+       <h3>Jack's Daily Report for Today</h3>
+       <p>Click to add notes here</p>
+       <div>
+       <p>Jack needs the following item :</p>
+                    <ol>
+                        <li>Diaper</li>
+                    <li>Sunblock cream</li>
+                    <li>wipes</li>
+                    </ol>
+                    </div>
+            <h4>Meals</h4>
+            <p>Morning snacks : Strawberry yogurt</p>
+            <p>Meal : Ate all his lunch</p>
+            <p>Afternoon snacks : Rice Crackers</p>
+            <h4>Nap</h4>
+            <p>Nap time 2 hours : 2 pm to 4 pm</p>
+            <h4>Diaper/Toilet</h4>
+            <p>Diaper change 3 times : 10:50 am, 2:10pm, 5:10pm</p>
+            <h4>Activity</h4>
+            <p>Gardening : Learned how to use shovel</p>
+        </div>
+         <div className="article">
+         
+        </div>
+        </div>
+  )
+  }
+ });
+ var Media = React.createClass({
+     render() {
+         return (
+             <div className="section">
+       <div className="article">
+       
+        </div>
+        <div className="article">
+       <h4>No content available for this page.</h4>
+        </div>
+        <div className="article">
+       
+        </div>
+       
+       </div>
 
+         )
+     }
+ });
+ var Portfolio = React.createClass({
+     render() {
+         return (
+             <div className="section">
+       <div className="article">
+       
+        </div>
+        <div className="article">
+       <h4>No content available for this page.</h4>
+        </div>
+        <div className="article">
+       
+        </div>
+       
+       </div>
+
+         )
+     }
+ });
+ var Notes = React.createClass({
+     render() {
+         return (
+             <div className="section">
+       <div className="article">
+       
+        </div>
+        <div className="article">
+       <h4>No content available for this page.</h4>
+        </div>
+        <div className="article">
+       
+        </div>
+       
+       </div>
+
+         )
+     }
+ });
+ 
  var App = React.createClass({
      render() {
          return (
@@ -240,6 +333,9 @@
             <IndexRoute component={Home}/>
             <Route path="Media" component={Media}/>
             <Route path="Lessons" component={Lessons}/>
+            <Route path="Reports" component={Reports}/>
+            <Route path="Portfolio" component={Portfolio}/>
+            <Route path="Notes" component={Notes}/>
             </Route>
             </Router>,
      destination
