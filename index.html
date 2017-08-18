@@ -9,12 +9,11 @@
     <meta name="author" content="Ana Pandey">
 
     <!--CSS stylesheets -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/dafault_style.css">
 
     <!-- External JS scripts -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 
     <!-- Internet Explorer Shiv HTML5 shiv-->
@@ -26,135 +25,34 @@
 
 <body>
     <!-- navigation menubar -->
-    <div class="navbar">
-        <div class="container">
-            <!-- navbar-header includes toggle button for small screen -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <!-- navbar-collpase includes navigation lists -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#aboutMe">About Me</a></li>
-                    <li class="active"><a href="#title">Portfolio</a></li>
-                    <li class="active"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    
+           
     <!--navbar ends -->
 
     <!-- about-me includes skills in brief -->
-    <div id="aboutMe" class="container-fluid">       
-        <div class="row">
-            <div class="col-md 12 col-sm-12">
-                <h1>Ana Pandey</h1>
-                <p class="lead">Front End Developer</p>
-                <p><span class="skill">HTML/CSS</span> <span class="skill">Bootstrap</span> <span class="skill">JS/JQuery</span></p>
-            </div>
-        </div>       
-    </div>
+   
     <!--aboutMe ends -->
 
     <!-- portfolio heading in aseparte row -->
-    <div class="row center">
-        <div class="col-md-12 col-sm-12">
-            <h2 id="title">Portfolio</h2>
-        </div>
-    </div>
+    
 
     <!-- portfolio content -->
-    <div class="container" id="portfolio">
-        <div class="row center">
-            <div class="col-sm-3 col-md-3">
-                <a href="WeatherPredictor/index.html" class="thumbnail img-responsive">
-                    <img src="images/weather.jpg" alt="weatherApp">
-                    <p class="center">Weather Predictor App</p>
-                </a>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <a href="WikipediaViewer/index.html" class="thumbnail  img-responsive">
-                    <img src="images/wikipandey.jpg" alt="Wikipedia Viewer">
-                    <p class="center">Wikipedia Viewer</p>
-                </a>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <a href="JSRandomQuoteMachine/index.html" class="thumbnail  img-responsive">
-                    <img src="images/randomQuote.jpg" alt="RandomQuote">
-                    <p class="center">Random Quote Machine</p>
-                </a>
-            </div>
-            <div class="col-sm-3 col-md-3">
-                <a href="VancouverTributePage/index.html" class="thumbnail  img-responsive">
-                    <img src="images/van.jpg" alt="vancouver">
-                    <p class="center">Tribute Page</p>
-                </a>
-            </div>
-        </div>
-    </div>
+    
     <!--Portfolio ends -->
 
     <!-- contact info -->
-    <div class="container" id="contact">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 links">
-                <p class="lead">Inbox me a message at my email address given below. I'll get back to you A.S.A.P.</p>
-                <p>ana.pandey@hotmail.com</p>
-            </div>
-            <!-- social media icons -->
-            <div class="col-md-6 col-sm-6 links">
-                <a href="https://www.linkedin.com/in/ana-pandey-23b44658/">
-                    <img class="logo" src="images/link.png" alt="LinkedIn logo ">
-                </a>
-                <a href="https://github.com/anapandey">
-                    <img class="logo" src="images/git.png" alt="Github logo">
-                </a>
-            </div>
-        </div>
-    </div>
+   
     <!--Contact ends -->
 
     <!-- footer with copyright and attributes -->
-    <div class="row" id="footer">
-        <div class="col-md-12 col-sm-12">
-            <div id="me">Coded by Ana Pandey</div>
-           
-            <div>Background image by <a href="https://unsplash.com">unsplash.com</a></div>
-            <div>Icons made by
-                <a href="http://www.flaticon.com/authors/google" title="Google">Google</a> and
-                <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from
-                <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by
-                <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-            </div>
-
-        </div>
-    </div>
+    
     <!--Footer ends -->
     
       <!--jQuery code begins here -->
-        <script>
-            $(document).ready(function(){
-                var myNav=$('.navbar');
-                $(window).scroll(function(){
-                    if($(this).scrollTop()>100){
-                        myNav.addClass('navbarScrolled');
-                    } else {
-                        myNav.removeClass('navbarScrolled');
-                    }
-                });
-                $('.icon-bar').click(function(){
-                    $('.navbar').addClass('bg');         
-                    $('.navbar-collapse').addClass('bg');
-                });
-            });
+       
           
             
-      </script>
+      
        <!--jQuery code ends --> 
 
 </body>
