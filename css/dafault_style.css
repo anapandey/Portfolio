@@ -175,3 +175,145 @@ button {
     color: #999999;
     font-size: 90%;
 }
+/* -----------------media queries for smaller devices ---------------------------- */
+
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    body {
+        padding: 0px;
+        background-color: #546e7a;
+        font-size: 150%;
+    }
+    /*header*/
+    
+    header {
+        width: 100%;
+    }
+    header ul {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    header ul a {
+        display: block;
+        float: none;
+        margin: 0px;
+        box-shadow: none;
+    }
+    /*footer*/
+    
+    footer {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        padding: 0px;
+    }
+    /*main*/
+    
+    main {
+        box-sizing: border-box;
+        width: 100%;
+        color: #FFF;
+        height: auto;
+        margin-bottom: 100px;
+    }
+    section {
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+        box-shadow: none;
+        text-align: center;
+    }
+    section img,
+    h1,
+    section p {
+        display: none;
+    }
+    #skill,
+    #work {
+        padding: 0px;
+        box-shadow: none;
+        height: auto;
+        width: 100%;
+    }
+    section figure img {
+        max-width: 50%;
+        height: auto;
+        display: inline-block;
+    }
+    figcaption {
+        text-align: center;
+    }
+    main section div {
+        width: 100%;
+    }
+    main section div ul {
+        margin-bottom: 80px;
+        background-color: #546e7a;
+        box-shadow: none;
+    }
+    /*work page */
+    
+    .showcase img {
+        max-width: 100%;
+        height: auto;
+        box-shadow: none;
+        border: 3px solid white;
+    }
+    #work {
+        padding: 0px;
+        background-color: #546e7a;
+        box-shadow: none;
+    }
+    #work figure {
+        background-color: #546e7a;
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 110px;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+    #about-button,
+    #skill-button,
+    #work-button {
+        background-color: #819ca9;
+    }
+}
+/* -----------------media queries for medium devices ---------------------------- */
+
+@media only screen and (min-width: 700px) and (max-width: 1150px) {
+    main {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        position: fixed;
+        width: 100%;
+        bottom: -5px;
+    }
+    #work {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #work figure {
+        box-sizing: border-box;
+        width: 90%;
+    }
+    #work figure img {
+        box-sizing: border-box;
+        width: 90%;
+    }
+    #skill {
+        text-align: center;
+    }
+    #skill div ul {
+        width: 60%;
+    }
+}
