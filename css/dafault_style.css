@@ -1,66 +1,79 @@
 /* Ana Pandey */
-
 /* body */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
-    background-color:#FFFFFF;
-    color:#999999;
-    }
-
-h1, h2, h3, h4, h5, h6 {
-     font-family: Arial, Helvetica, sans-serif;
-    color:#999999;
- }
+    background-color: #f7fafc;
+    color: #999999;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+}
 h1 {
-   font-size:300%; 
-    color:#FFF;
+    font-size: 300%;
+    color: #FFF;
 }
 li {
-    list-style: none;   
+    list-style: none;
 }
+/*header*/
+
 header {
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
-    background-color:#FFF;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
     box-sizing: border-box;
 }
-
 header ul {
     box-sizing: border-box;
-    display:block;
-    margin:0px;
-    background-color:#FFF;
-    
+    display: block;
+    margin: 0px;
+    background-color: #FFF;
 }
- 
 header ul a {
     text-decoration: none;
-    color:#FFF;
-    padding:12px 35px; 
-    float:left;
-    margin-right:5px;
-    box-shadow:2px 1px 2px grey;
+    color: #FFF;
+    padding: 12px 35px;
+    float: left;
+    margin-right: 5px;
+    box-shadow: 2px 1px 2px grey;
 }
 #about-button {
-    background-color:#546e7a;
-    
+    background-color: #546e7a;
 }
 #skill-button {
-    background-color:#49a7cc;
+    background-color: #49a7cc;
 }
 #work-button {
-    background-color:#819ca9;
+    background-color: #819ca9;
 }
+/*footer*/
+
+footer {
+    box-shadow: 3px 2px 5px grey;
+    background-color: #819ca9;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+}
+/*main */
+
 main {
     box-sizing: border-box;
-    padding-top:10px;
-    padding-bottom:80px;
-    width:80%;
-    margin-left:auto;
-    margin-right:auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 section {
@@ -70,208 +83,95 @@ section {
     padding: 80px 0px;
     margin: 40px;
     text-align: center;
-    box-shadow:3px 2px 10px #999999;
+    box-shadow: 3px 2px 10px #999999;
 }
-
+main div {
+    width: 70%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+}
+section p {
+    margin-top: -7px;
+}
 section img {
     margin-top: 58px;
     border: 5px solid #FFF;
     float: right;
     border-radius: 200px 0px 0px;
-    box-shadow:1px 1px 1px #FFF;
-}
- main section div {
-    
-    margin-left:auto;
-     margin-right:auto;
-    width:33.33%;
-    float:left; 
-}
-main section div h4 {
-    color:#819ca9;
-    text-align: center;
-}
-main section div ul {
-    padding:40px 40px;
-    background-color:#49a7cc; 
-    margin:0px 25px -57px 25px;
-    text-align: center;
-    box-shadow:1px 4px 3px #999999;
-    line-height:1.4;
-}
-#skill {
-    padding:120px 0px 320px 0px;
-    box-shadow:1px 3px 3px grey;
-}
-section figure img {
-     margin: 0px;     
-    border: none;
-    float:none;
-    border-radius: 0px;
-     background-color:#819ca9;
-     box-shadow:1px 3px 4px #666666;
- }
-
-figure {
-    text-align: center;
-    
-}
-
-button {
-    margin-top:80px;
-}
-
-footer {
-    box-shadow:3px 2px 5px grey;
-    background-color:#819ca9;
-     width:100%;
-    margin-left:auto;
-    margin-right:auto;
-    padding:5px 0px;
-}
-#push {
-  height:50px;  
-}
-main div {
-  width:70%;
-    padding-top:20px;
-    margin-left:auto;
-    margin-right:auto;
-    font-size:90%;
-}
-
-
-
-
-
-
-
-
-
-
-/*
-i {
-   font-size:400%; 
-    color:#CC3333;
-}
-li {
-    list-style: none;
-}
-/* header 
-header {
-    width:40%;
-    margin:auto;
-    margin-top:0px;
-    padding:5px;
-    border-bottom: 1px solid  #CCCCCC;
-}
-header ul {
-    display:block;
-    text-align: center;
-}
-header ul li {
-    display:inline-block;
-    list-style: none;
-}
-
-header ul a {
-    text-decoration: none;
-    color:#666666;
-    padding:8px 20px;
-    
-}
-header ul li a:hover,
-header ul li a:active {
-  background-color:#FFCC66;  
-  color:#FFF;
-}
- 
-/* main 
-
-main {
-   width:80%;
-    padding-top:100px;
-    margin-left:auto;
-    margin-right:auto;
-    
-}
-main section {
-    width:98%;    
-    margin-left:auto;
-    margin-right:auto;
-    
-}
-
-main section article {
-    box-sizing: border-box;
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
-    float:left;
-    text-align: justify;
-    color:#666666;
-}
-main section article:last-child {
-    margin-top:10px;
-    padding:60px 50px;
-    
+    box-shadow: 1px 1px 1px #FFF;
 }
 main section div {
-    box-sizing: border-box;
-    margin-left:auto;
-    margin-right:auto;
-    width:33.33%;
-    float:left;
-    text-align: justify;
-   
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 33.33%;
+    float: left;
 }
 main section div h4 {
-    color:#FFF;
+    color: #819ca9;
     text-align: center;
 }
 main section div ul {
-    padding:40px 50px;
-    background-color:#FF9900;
-    
-    margin:5px 25px;
+    padding: 40px 40px;
+    background-color: #49a7cc;
+    margin: 0px 25px -57px 25px;
     text-align: center;
-    box-shadow:2px 2px 2px grey;
+    box-shadow: 1px 4px 3px #999999;
+    line-height: 1.4;
 }
-main section article h1 {
-    font-size:220%;
-    color:#FFF;
+#push {
+    height: 50px;
 }
-main section article button {
-    color:#FFF;
-    background-color:#FF9900;
-    border:none;
-    padding:2px 5px;
+/*skill page*/
+
+#skill {
+    padding: 80px 0px 280px 0px;
+    box-shadow: 1px 3px 3px grey;
 }
-main section article button:hover {
-    box-shadow:2px 2px 2px grey;
+section figure img {
+    margin: 0px;
+    border: none;
+    float: none;
+    border-radius: 0px;
+    background-color: #819ca9;
+    box-shadow: 1px 3px 4px #666666;
 }
-
-.white {
-    
-    
-    width:100%;
+figcaption {
+    text-align: left;
 }
+figure {
+    text-align: center;
+}
+button {
+    margin-top: 80px;
+}
+/*work page*/
 
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.showcase img {
+    width: 270px;
+    box-shadow: none;
+}
+#work {
+    padding: 0px 50px 360px 0px;
+    background-color: #f7fafc;
+    box-shadow: none;
+}
+#work figure {
+    background-color: #FFF;
+    padding: 0px;
+    margin: 0px;
+    width: 270px;
+    border: 12px solid #FFF;
+    box-shadow: 1px 1px 2px #666666;
+}
+#work a {
+    text-decoration: none;
+    color: #3399ff;
+    font-size: 100%;
+}
+#work a:last-of-type {
+    text-decoration: none;
+    color: #999999;
+    font-size: 90%;
+}
