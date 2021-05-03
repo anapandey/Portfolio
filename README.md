@@ -1,2 +1,2 @@
 # Portfolio
-Projects completed by Ana Pandey
+Webpage displaying Projects completed by Ana Pandey
